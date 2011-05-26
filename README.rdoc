@@ -1,0 +1,27 @@
+= JSlib Rails Application Template
+
+Goal[http://jessecravens.com/01302011/JSlib-rails-application-template]
+
+Generates a Rails app; includes necessary JS Libraries from Google's CDN, Haml, RSpec, Cucumber, WebRat, Factory Girl ...
+
+== Generating an Application
+
+In <b>Rails 3</b>, navigate to your projects directory, and create a custom templates directory if you don't already have one
+
+  mkdir tmpls
+
+Clone the template.rb file to your custom templates directory
+
+  git clone git://github.com/jessecravens/jslib-rails-template.git path_to_templates
+
+Generate a new app named JSlibapp, or whatever you like
+
+  rails new JSlibapp -m path_to_templates/template.rb
+
+Navigate to the new directory
+
+  cd JSlibapp
+
+Start your server
+
+  rails s
